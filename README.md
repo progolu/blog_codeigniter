@@ -1,3 +1,7 @@
+# you need to change the publicf to public 
+create your databse and set variables 
+and also install bootstrap4 inside your public folder
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
