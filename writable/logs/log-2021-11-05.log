@@ -1,0 +1,369 @@
+CRITICAL - 2021-11-05 04:42:58 --> Undefined variable: title
+#0 C:\wamp64n\www\uframe\app\Views\blog\post.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 4, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(18): view('blog/post')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('alert-testing')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 04:43:35 --> Undefined variable: title
+#0 C:\wamp64n\www\uframe\app\Views\blog\post.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 4, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(18): view('blog/post')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('alert-testing')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 04:43:37 --> Undefined variable: title
+#0 C:\wamp64n\www\uframe\app\Views\blog\post.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 4, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(18): view('blog/post')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('alert-testing')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 04:43:39 --> Undefined variable: title
+#0 C:\wamp64n\www\uframe\app\Views\blog\post.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 4, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(18): view('blog/post')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('alert-testing')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 06:04:34 --> syntax error, unexpected '?'
+#0 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#1 C:\wamp64n\www\uframe\app\Controllers\Pages.php(12): view('pages/home')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-05 09:40:07 --> Undefined variable: newsItem
+#0 C:\wamp64n\www\uframe\app\Views\blog\post.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 7, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(18): view('blog/post')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('frrrr')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 09:44:15 --> Undefined variable: newsItem
+#0 C:\wamp64n\www\uframe\app\Views\blog\post.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 7, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(18): view('blog/post')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('edit', '42')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 09:46:25 --> Undefined variable: post
+#0 C:\wamp64n\www\uframe\app\Views\pages\home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 42, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Pages.php(12): view('pages/home')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 16:34:32 --> Declaration of App\Models\BlogModel::delete($id) should be compatible with CodeIgniter\Model::delete($id = NULL, bool $purge = false)
+#0 C:\wamp64n\www\uframe\app\Models\BlogModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\wamp64n\\www\\...', 5, Array)
+#1 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(365): require_once('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64n\\www\\...')
+#3 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Blog...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Blog...')
+#5 C:\wamp64n\www\uframe\app\Controllers\Pages.php(8): spl_autoload_call('App\\Models\\Blog...')
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-05 16:35:08 --> Declaration of App\Models\BlogModel::delete($id) should be compatible with CodeIgniter\Model::delete($id = NULL, bool $purge = false)
+#0 C:\wamp64n\www\uframe\app\Models\BlogModel.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\wamp64n\\www\\...', 5, Array)
+#1 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(365): require_once('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64n\\www\\...')
+#3 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Blog...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Blog...')
+#5 C:\wamp64n\www\uframe\app\Controllers\Pages.php(8): spl_autoload_call('App\\Models\\Blog...')
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-05 17:13:51 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64n\\www\\...')
+#1 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 18:11:03 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-11-05 18:46:38 --> Undefined variable: model
+#0 C:\wamp64n\www\uframe\app\Views\blog\view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 18, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/view', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(57): view('blog/view', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->view()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 18:49:14 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\blog\view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 18, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/view', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(57): view('blog/view', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->view()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 18:51:58 --> Undefined variable: model
+#0 C:\wamp64n\www\uframe\app\Views\blog\view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 18, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/view', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(57): view('blog/view', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->view()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 18:53:24 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\blog\view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 18, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/view', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(57): view('blog/view', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->view()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 18:53:26 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\blog\view.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 18, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/view', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(57): view('blog/view', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->view()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 18:54:12 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\blog\view.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 32, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/view', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(57): view('blog/view', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->view()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 19:20:59 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 27
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(27): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 19:22:31 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 27
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(27): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 19:22:43 --> Column 'title' cannot be null
+#0 C:\wamp64n\www\uframe\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `po...')
+#1 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\wamp64n\www\uframe\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\wamp64n\www\uframe\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64n\www\uframe\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\wamp64n\www\uframe\app\Controllers\Blog.php(30): CodeIgniter\Model->save(Array)
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#9 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-05 19:24:40 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 28
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(28): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 19:28:02 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 28
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(28): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 19:28:49 --> Column 'title' cannot be null
+#0 C:\wamp64n\www\uframe\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `po...')
+#1 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\wamp64n\www\uframe\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\wamp64n\www\uframe\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64n\www\uframe\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): CodeIgniter\Model->save(Array)
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#9 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-05 19:29:49 --> Column 'title' cannot be null
+#0 C:\wamp64n\www\uframe\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `po...')
+#1 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\wamp64n\www\uframe\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\wamp64n\www\uframe\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64n\www\uframe\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): CodeIgniter\Model->save(Array)
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#9 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-05 19:29:51 --> Column 'title' cannot be null
+#0 C:\wamp64n\www\uframe\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `po...')
+#1 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\wamp64n\www\uframe\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\wamp64n\www\uframe\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64n\www\uframe\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): CodeIgniter\Model->save(Array)
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#9 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-05 19:33:19 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 28
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(28): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 19:34:34 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 31
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 19:35:14 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 31
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 20:44:45 --> Call to undefined method App\Models\BlogModel::getPosts
+#0 C:\wamp64n\www\uframe\app\Controllers\Pages.php(9): CodeIgniter\Model->__call('getPosts', Array)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 20:46:36 --> Call to undefined method App\Models\BlogModel::getPosts
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(13): CodeIgniter\Model->__call('getPosts', Array)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->post('edited', '42')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 21:19:48 --> Undefined variable: model
+#0 C:\wamp64n\www\uframe\app\Views\blog\edited.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 9, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/edited', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(79): view('blog/edited', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->edited('43')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 21:23:05 --> Undefined variable: model
+#0 C:\wamp64n\www\uframe\app\Views\blog\edited.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 9, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/edited', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(79): view('blog/edited', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->edited('43')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 21:52:56 --> Undefined index: content
+#0 C:\wamp64n\www\uframe\app\Views\blog\edited.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64n\\www\\...', 20, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/edited', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(79): view('blog/edited', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->edited('30')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 21:53:21 --> Undefined index: body
+#0 C:\wamp64n\www\uframe\app\Views\blog\edited.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64n\\www\\...', 20, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/edited', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(79): view('blog/edited', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->edited('30')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 22:01:32 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 31
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 22:43:13 --> Undefined variable: postss
+#0 C:\wamp64n\www\uframe\app\Views\blog\edited.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 6, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('blog/edited', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(79): view('blog/edited', Array)
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->edited('42')
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-05 22:48:45 --> Argument 1 passed to url_title() must be of the type string, null given, called in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 31
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(31): url_title(NULL)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 22:50:12 --> Column 'title' cannot be null
+#0 C:\wamp64n\www\uframe\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `po...')
+#1 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\wamp64n\www\uframe\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\wamp64n\www\uframe\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64n\www\uframe\system\Model.php(574): CodeIgniter\Model->insert(Array, false)
+#6 C:\wamp64n\www\uframe\app\Controllers\Blog.php(34): CodeIgniter\Model->save(Array)
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->created()
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#9 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

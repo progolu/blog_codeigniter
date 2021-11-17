@@ -1,0 +1,227 @@
+CRITICAL - 2021-11-03 04:04:17 --> Too few arguments to function CodeIgniter\HTTP\RedirectResponse::to(), 0 passed in C:\wamp64n\www\uframe\app\Controllers\Blog.php on line 36 and at least 1 expected
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): CodeIgniter\HTTP\RedirectResponse->to()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 04:05:14 --> Call to undefined function App\Controllers\baseUrl()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 04:07:17 --> Call to undefined function App\Controllers\baseUrl()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 04:08:09 --> Invalid file: baseUrl.php
+#0 C:\wamp64n\www\uframe\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('baseUrl.php')
+#1 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('baseUrl', Array, true)
+#2 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): view('baseUrl')
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 04:09:01 --> Call to undefined function App\Controllers\baseUrl()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 04:12:01 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64n\www\uframe\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 04:12:43 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\pages\home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 20, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): view('pages/home')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 04:19:38 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64n\www\uframe\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 04:22:06 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64n\www\uframe\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 04:22:58 --> Call to undefined function App\Controllers\baseUrl()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 04:24:03 --> Invalid file: /.php
+#0 C:\wamp64n\www\uframe\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('/', Array, true)
+#2 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): view('/')
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 04:24:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64n\www\uframe\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 04:26:03 --> Invalid file: /.php
+#0 C:\wamp64n\www\uframe\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('/', Array, true)
+#2 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): view('/')
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-03 04:26:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64n\www\uframe\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 04:27:54 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\pages\home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 20, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): view('pages/home')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 05:45:00 --> Undefined variable: news
+#0 C:\wamp64n\www\uframe\app\Views\pages\home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 20, Array)
+#1 C:\wamp64n\www\uframe\system\View\View.php(246): include('C:\\wamp64n\\www\\...')
+#2 C:\wamp64n\www\uframe\system\Common.php(1119): CodeIgniter\View\View->render('pages/home', Array, true)
+#3 C:\wamp64n\www\uframe\app\Controllers\Blog.php(36): view('pages/home')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 06:21:47 --> syntax error, unexpected '<'
+#0 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64n\\www\\...')
+#1 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 06:22:41 --> syntax error, unexpected '?'
+#0 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64n\\www\\...')
+#1 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 06:23:13 --> syntax error, unexpected '?'
+#0 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64n\\www\\...')
+#1 C:\wamp64n\www\uframe\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64n\www\uframe\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64n\www\uframe\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-03 06:23:55 --> Undefined variable: baseURL
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64n\\www\\...', 38, Array)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 06:25:00 --> Call to undefined function App\Controllers\baseurl()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 06:27:46 --> Call to undefined function App\Controllers\baseurl()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:14:44 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:16:37 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:22:07 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:22:14 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:22:28 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:28:49 --> Object of class App\Controllers\Blog could not be converted to string
+#0 C:\wamp64n\www\uframe\app\Controllers\Blog.php(40): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\wamp64n\\www\\...', 40, Array)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-03 08:29:18 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:32:23 --> Call to undefined method CodeIgniter\Session\Session::set_Flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-03 08:44:02 --> Call to undefined method CodeIgniter\Session\Session::set_Flashdata()
+#0 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Blog->create()
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

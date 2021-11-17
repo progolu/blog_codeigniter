@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1636566049;_ci_previous_url|s:47:"http://localhost:8080/uframe/public/admin/check";fail|s:18:"incorrect password";__ci_vars|a:2:{s:4:"fail";s:3:"new";s:13:"_ci_old_input";s:3:"new";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:14:"csrf_test_name";s:32:"82ef23281a2095365a4bba4853699ef1";s:5:"email";s:15:"admin@admin.com";s:8:"password";s:5:"12345";}}

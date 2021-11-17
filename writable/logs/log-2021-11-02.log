@@ -1,0 +1,27 @@
+CRITICAL - 2021-11-02 04:50:00 --> Table 'uframe.post' doesn't exist
+#0 C:\wamp64n\www\uframe\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64n\www\uframe\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64n\www\uframe\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64n\www\uframe\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64n\www\uframe\app\Models\BlogModel.php(11): CodeIgniter\Model->findAll()
+#6 C:\wamp64n\www\uframe\app\Controllers\Pages.php(9): App\Models\BlogModel->getPosts()
+#7 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#8 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-11-02 09:18:44 --> Call to undefined method App\Models\BlogModel::getPosts
+#0 C:\wamp64n\www\uframe\app\Controllers\Pages.php(9): CodeIgniter\Model->__call('getPosts', Array)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-02 10:55:09 --> Call to undefined method App\Models\BlogModel::getpost
+#0 C:\wamp64n\www\uframe\app\Controllers\Pages.php(9): CodeIgniter\Model->__call('getpost', Array)
+#1 C:\wamp64n\www\uframe\system\CodeIgniter.php(918): App\Controllers\Pages->index()
+#2 C:\wamp64n\www\uframe\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\wamp64n\www\uframe\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64n\www\uframe\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
